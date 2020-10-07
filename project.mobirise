@@ -96,9 +96,9 @@
     "imageResize": true,
     "favicon": false,
     "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://ap-serwis.github.io/",
     "uniqCompNum": 35,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
@@ -120,7 +120,8 @@
       "underlineLink": true,
       "text": "Aby kontynuować, musisz zgodzić się z warunkami naszego <a href='regulamin.html'>Regulaminu</a> oraz <a href='polityka.html'>Polityką Prywatności</a>."
     },
-    "publishChangesOnly": false
+    "publishChangesOnly": false,
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-180072386-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-180072386-1');\n</script>\n"
   },
   "pages": {
     "index.html": {
