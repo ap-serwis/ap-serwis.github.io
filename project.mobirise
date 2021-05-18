@@ -99,8 +99,8 @@
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://ap-serwis.github.io/",
-    "uniqCompNum": 35,
-    "versionPublish": "4.12.4",
+    "uniqCompNum": 38,
+    "versionPublish": "5.0.29",
     "screenshot": "screenshot.png",
     "cookiesAlert": {
       "customDialogSelector": false,
@@ -121,7 +121,8 @@
       "text": "Aby kontynuować, musisz zgodzić się z warunkami naszego <a href='regulamin.html'>Regulaminu</a> oraz <a href='polityka.html'>Polityką Prywatności</a>."
     },
     "publishChangesOnly": false,
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-180072386-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-180072386-1');\n</script>\n"
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-180072386-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-180072386-1');\n</script>\n",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
   },
   "pages": {
     "index.html": {
@@ -551,7 +552,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pokaż logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Wielkość logo\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Pokaż markę\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Pokaż elementy menu\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Kolor aktywnego menu\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Pokaż przycisk(i)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"&quot;Przyklejony&quot;\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Zwinięty\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Przezroczyste\" name=\"transparent\">\n        <input type=\"color\" title=\"Kolor menu prostego\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"menuBgColor\" value=\"#c1c1c1\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                        <a href=\"index.html#header2-7\"><img src=\"@PROJECT_PATH@/assets/images/mbr-96x113.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html#features11-8\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">O FIRMIE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#content10-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">USŁUGI&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#footer2-c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">KONTAKT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"https://www.facebook.com/autoczesci.p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(20, 157, 204);\"></span>FACEBOOK &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+48606238327\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +48 606 238 327&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pokaż logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Wielkość logo\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Pokaż markę\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Pokaż elementy menu\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Kolor aktywnego menu\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Pokaż przycisk(i)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"&quot;Przyklejony&quot;\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Zwinięty\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Przezroczyste\" name=\"transparent\">\n        <input type=\"color\" title=\"Kolor menu prostego\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"menuBgColor\" value=\"#c1c1c1\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                        <a href=\"index.html#header2-7\"><img src=\"@PROJECT_PATH@/assets/images/mbr-96x113.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html#features11-8\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">O FIRMIE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#content10-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">USŁUGI&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#footer2-c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">KONTAKT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"<!-- Load Facebook SDK for JavaScript -->       <div id=&quot;fb-root&quot;></div>       <script>         window.fbAsyncInit = function() {           FB.init({             xfbml            : true,             version          : 'v8.0'           });         };          (function(d, s, id) {         var js, fjs = d.getElementsByTagName(s)[0];         if (d.getElementById(id)) return;         js = d.createElement(s); js.id = id;         js.src = 'https://connect.facebook.net/pl_PL/sdk/xfbml.customerchat.js';         fjs.parentNode.insertBefore(js, fjs);       }(document, 'script', 'facebook-jssdk'));</script>        <!-- Your Chat Plugin code -->       <div class=&quot;fb-customerchat&quot;         attribution=setup_tool         page_id=&quot;112654210602976&quot;   logged_in_greeting=&quot;Witam. Dziękuję za wiadomość. Odezwę się jak naszybciej.&quot;   logged_out_greeting=&quot;Witam. Dziękuję za wiadomość. Odezwę się jak naszybciej.&quot;>       </div>\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\"><span class=\"socicon socicon-messenger mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(20, 157, 204);\"></span>FACEBOOK &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+48606238327\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +48 606 238 327&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "scCsN50tGX",
           "_anchor": "menu2-6",
           "_protectedParams": [],
@@ -603,7 +604,7 @@
             }
           },
           "_name": "content6",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n      <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Wielkość\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"20\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"fundusze.html\"><img src=\"@PROJECT_PATH@/assets/images/flag-yellow-low-1-266x178.jpeg\" alt=\"Mobirise\" title></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\"><a href=\"fundusze.html\" target=\"_blank\">Unia Europejska</a></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n      <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n      <input type=\"range\" inline title=\"Wielkość\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"30\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked>  \n      <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"https://allegro.pl/uzytkownik/ap-serwis_github?logout=1&bmatch=cl-e2101-d3857-c3683-uni-1-2-0429\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/allegro-127x75.jpg\" alt=\"SPRZEDAŻ NA ALLEGRO\" title></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\"><a href=\"fundusze.html\" target=\"_blank\">Unia Europejska</a></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "scG4ZdZeTO",
           "_anchor": "content6-y",
           "_protectedParams": [],
@@ -739,7 +740,7 @@
             }
           },
           "_name": "features11",
-          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n\n        <input type=\"checkbox\" title=\"Pokaż tytuł\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż podtytuł\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż tekst nagłówka\" name=\"showTextHead\">\n        <input type=\"checkbox\" title=\"Pokaż tekst\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Pokaż ikony\" name=\"showIcons\">\n        <input type=\"checkbox\" title=\"Obrazek po prawej\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Wielkość\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"60\">\n        <select title=\"Wizytówki\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Obrazek\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Kolor ta\" value=\"#c1c1c1\" selected>\n            <input type=\"video\" title=\"Film\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Nakładka\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Przejrzystość\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">   \n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure m-auto\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/2-952x1071.png\" alt=\"Mobirise\" title>\n                </div>\n                <div class=\" align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>\n                        </b><br><b>O FIRMIE</b></h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\">&nbsp; &nbsp; Moja firma działa na obszarze województwa podlaskiego od 2018 r. Siedziba firmy mieści się na terenie powiatu zambrowskiego, gmina Rutki-Kossaki.\n<br><br>&nbsp; &nbsp; &nbsp;Posiadam kilkunastoletnie doświadczenie w branży. Od 2008 r. działam w zakresie napraw samochodów osobowych.\n<br><br>&nbsp; &nbsp; &nbsp;Specjalizuję się w <b><i>naprawach bieżących</i></b> (rozrządy, filtry, oleje, klocki hamulcowe), a także w naprawach specjalistycznych <b><i>alternatorów i rozruszników.&nbsp;</i></b><b><i><br></i></b>Zajmuję się również <b><i>diagnostyką komputerową</i></b> (diagnoza błędów komputera, reset inspekcji, itd.). Równolegle z usługami prowadzę <b><i>sklep z częściami</i></b> zamiennymi do aut, sprzedaż detaliczną \"od ręki\" lub na zamówienie (szybka realizacja zamówienia - 3 razy dziennie dostawy).&nbsp;</p>\n                    </div>\n\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card p-3 pr-3\">\n                            <div class=\"media\">\n                                <div class=\" align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">\n                                        Ponad 400 niesamowitych segmentów\n                                    </h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                   \"Mobirise\" oferuje wiele różnorodnych motywów, jak pokazy slajdów, galerie, liczniki, rozwijane menu, filmy, animowany tekst, tabele z filtracją, formularze kontaktowe, referencje, mapy Google, paski postępu i wiele innych. \n                                </p>\n                            </div>\n                        </div>\n\n                        <div class=\"card p-3 pr-3\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-drag-n-drop2 mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">\n                                        Łatwy i prosty w użyciu\n                                    </h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                    Skróć czas przygotowywania dzięki narzędziu do tworzenia stron internetowych metodą \"przeciągnij i upuść\". Upuść segment na stronę, edytuj zawartość i publikuj - specjalistyczne umiejętności nie są konieczne.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
+          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n\n        <input type=\"checkbox\" title=\"Pokaż tytuł\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż podtytuł\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż tekst nagłówka\" name=\"showTextHead\">\n        <input type=\"checkbox\" title=\"Pokaż tekst\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Pokaż ikony\" name=\"showIcons\">\n        <input type=\"checkbox\" title=\"Obrazek po prawej\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Wielkość\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"60\">\n        <select title=\"Wizytówki\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Obrazek\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Kolor ta\" value=\"#c1c1c1\" selected>\n            <input type=\"video\" title=\"Film\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Nakładka\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Przejrzystość\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">   \n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure m-auto\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/2-952x1071.png\" alt=\"Mobirise\" title>\n                </div>\n                <div class=\" align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>\n                        </b><br><b>O FIRMIE</b></h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\">&nbsp; &nbsp; Moja firma działa na obszarze województwa podlaskiego od 2018 r. Siedziba firmy mieści się na terenie powiatu zambrowskiego, gmina Rutki-Kossaki.\n<br><br>&nbsp; &nbsp; &nbsp;Posiadam kilkunastoletnie doświadczenie w branży. Od 2008 r. działam w zakresie napraw samochodów osobowych.\n<br><br>&nbsp; &nbsp; &nbsp;Specjalizuję się w <b><i>naprawach bieżących</i></b> (rozrządy, filtry, oleje, klocki hamulcowe), a także w naprawach specjalistycznych <b><i>alternatorów i rozruszników.&nbsp;</i></b><b><i><br></i></b>Zajmuję się również <b><i>diagnostyką komputerową</i></b> (diagnoza błędów komputera, reset inspekcji, itd.). Równolegle z usługami prowadzę <b><i>sklep z częściami</i></b> zamiennymi do aut, sprzedaż detaliczną \"od ręki\" lub na zamówienie (szybka realizacja zamówienia - 3 razy dziennie dostawy).&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp;<b>Od maja 2021 r. poszerzam ofertę o sprzedaż internetową.</b></p>\n                    </div>\n\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card p-3 pr-3\">\n                            <div class=\"media\">\n                                <div class=\" align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">\n                                        Ponad 400 niesamowitych segmentów\n                                    </h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                   \"Mobirise\" oferuje wiele różnorodnych motywów, jak pokazy slajdów, galerie, liczniki, rozwijane menu, filmy, animowany tekst, tabele z filtracją, formularze kontaktowe, referencje, mapy Google, paski postępu i wiele innych. \n                                </p>\n                            </div>\n                        </div>\n\n                        <div class=\"card p-3 pr-3\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-drag-n-drop2 mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">\n                                        Łatwy i prosty w użyciu\n                                    </h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                    Skróć czas przygotowywania dzięki narzędziu do tworzenia stron internetowych metodą \"przeciągnij i upuść\". Upuść segment na stronę, edytuj zawartość i publikuj - specjalistyczne umiejętności nie są konieczne.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
           "_cid": "scCyWPVXBY",
           "_anchor": "features11-8",
           "_protectedParams": [],
@@ -1131,6 +1132,536 @@
       "settings": {
         "meta_descr": "Polityka Prywatności Adam Perkowski Elektromechanika Pojazdowa",
         "title": "Polityka Prywatności",
+        "order": 4
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            ".navbar": {
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px",
+              "padding": ".5rem 0"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important",
+                "-webkit-align-items": "center",
+                "-webkit-justify-content": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "visibility": "hidden",
+                "display": "block",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "visibility": "visible"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "@media (min-width: 1024px)": {
+                "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                  "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 1023px)": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu2",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pokaż logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Wielkość logo\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Pokaż markę\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Pokaż elementy menu\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Kolor aktywnego menu\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Pokaż przycisk(i)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"&quot;Przyklejony&quot;\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Zwinięty\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Przezroczyste\" name=\"transparent\">\n        <input type=\"color\" title=\"Kolor menu prostego\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"menuBgColor\" value=\"#c1c1c1\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                        <a href=\"index.html#header2-7\"><img src=\"@PROJECT_PATH@/assets/images/mbr-96x113.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html#features11-8\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">O FIRMIE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#content10-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">USŁUGI&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#footer2-c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">KONTAKT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"<!-- Load Facebook SDK for JavaScript -->       <div id=&quot;fb-root&quot;></div>       <script>         window.fbAsyncInit = function() {           FB.init({             xfbml            : true,             version          : 'v8.0'           });         };          (function(d, s, id) {         var js, fjs = d.getElementsByTagName(s)[0];         if (d.getElementById(id)) return;         js = d.createElement(s); js.id = id;         js.src = 'https://connect.facebook.net/pl_PL/sdk/xfbml.customerchat.js';         fjs.parentNode.insertBefore(js, fjs);       }(document, 'script', 'facebook-jssdk'));</script>        <!-- Your Chat Plugin code -->       <div class=&quot;fb-customerchat&quot;         attribution=setup_tool         page_id=&quot;112654210602976&quot;   logged_in_greeting=&quot;Witam. Dziękuję za wiadomość. Odezwę się jak naszybciej.&quot;   logged_out_greeting=&quot;Witam. Dziękuję za wiadomość. Odezwę się jak naszybciej.&quot;>       </div>\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\"><span class=\"socicon socicon-messenger mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(20, 157, 204);\"></span>FACEBOOK &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+48606238327\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +48 606 238 327&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "scCsN50tGX",
+          "_anchor": "menu2-f",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Szerokość\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Długość linii\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Kolor linii\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#2e2e2e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".section-text\" mbr-text><b><i>POLITYKA PRYWATNOŚCI&nbsp;</i></b><br>Jakie dane o Tobie zbieramy?\n</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_anchor": "content10-g",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "scDQ0A3ibP",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Szerokość\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Długość linii\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Kolor linii\" name=\"lineColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#cccccc\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><div><b><i>Dane zbierane automatycznie.</i></b></div><div>\n</div><div>Podczas Twojej wizyty na naszej stronie internetowej, automatycznie zbierane są dane dotyczące Twojej wizyty, np. Twój adres IP, nazwa domeny, typ przeglądarki, typ systemu operacyjnego, itp.</div><br><div>\n</div><div><b><i>Dane zbierane, gdy kontaktujesz się z nami.</i></b></div><div>\n</div><div>Gdy kontaktujesz się z nami za pomocą strony internetowej, telefonu, poczty email, itp. przekazujesz nam swoje dane osobowe, np. imię, nazwisko, adres email, itp.</div><br><div>\n</div><div><b><i>W jaki sposób wykorzystujemy Twoje dane?</i></b></div><div>W żadnym wypadku nie będziemy sprzedawali danych zebranych o Tobie podmiotom trzecim.</div><div>Dane zbierane automatycznie mogą być użyte do analizy zachowań użytkowników na naszej stronie internetowej, zbierania danych demograficznych o naszych użytkownikach, lub do personalizacji zawartości naszych stron internetowych. Dane te są zbierane automatycznie o każdym użytkowniku.\n</div><div>\n</div><div>Dane zbierane w trakcie korespondencji pomiędzy Tobą, a naszym serwisem będą wykorzystane wyłącznie w celu odpowiedzi na Twoje zapytanie.\n</div><div>\n</div><div>W przypadku kontroli Generalnego Inspektoratu Ochrony Danych Osobowych, Twoje dane mogą zostać udostępnione pracownikom Inspektoratu zgodnie z ustawą o ochronie danych osobowych.\n</div><div>\n</div><div>W przypadku naruszenia Regulaminu naszego serwisu, naruszenia prawa, lub gdy będą wymagały tego przepisy prawa, możemy udostępnić Twoje dane organom wymiaru sprawiedliwości.</div><br><div>\n</div><div><b><i>Wykorzystanie ciasteczek (\"cookies\")\n</i></b></div><div>\n</div><div>Nasza strona internetowa wykorzystuje ciasteczka w celu ułatwienia korzystania z poszczególnych funkcji, np. rozpoznawanie i automatyczne logowanie powracającego użytkownika, oraz w celu odbierania danych statystycznych o oglądalności, z których korzysta tylko redakcja serwisu. Użytkownik może wyłączyć w swojej przeglądarce internetowej opcję przyjmowania ciasteczek.\n</div><div>Korzystając ze strony wyrażasz zgodę na używanie cookie, zgodnie z aktualnymi ustawieniami przeglądarki.\n</div><div>\n</div><div>Więcej informacji o cookie możesz znaleźć na stronie <a href=\"https://wszystkoociasteczkach.pl/\" class=\"text-primary\" target=\"_blank\">wszystkoociasteczkach.pl</a></div><br><div>\n</div><div><b><i>Zmiany naszej polityki prywatności.\n</i></b></div><div>\n</div><div>Zastrzegamy sobie prawo zmiany powyższej polityki prywatności poprzez opublikowanie nowej polityki prywatności na tej stronie.</div><br><div>\n</div><div><b><i>Kontakt\n</i></b></div><div>\n</div><div>Firma zbierająca dane:\n</div><div>ADAM PERKOWSKI ELEKTROMECHANIKA POJAZDOWA, UL. 11 LISTOPADA 12, 18-312 RUTKI-KOSSAKI, NIP: 723-155-84-96, REGON: 200222266,TEL.: <a href=\"tel:+48606238327\" class=\"text-primary\">+48 606 238 327</a>, adres e-mail: <a href=\"mailto:autoczesci.p@o2.pl\" class=\"text-primary\">autoczesci.p@o2.pl</a></div><div>\n</div><div>W razie dodatkowych pytań dotyczących ochrony prywatności, prosimy o kontakt e-mail: <a href=\"mailto:autoczesci.p@o2.pl\" class=\"text-primary\">autoczesci.p@o2.pl</a>.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-h",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "scDQ2Jm5NU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer6",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Efekt odsłaniania\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Obrazek\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Kolor ta\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Nakładka\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Przejrzystość\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2025 Mobirise - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sxMCK4k9mo",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer6-10"
+        }
+      ]
+    },
+    "regulamin.html": {
+      "settings": {
+        "meta_descr": "Regulamin Adam Perkowski Elektromechanika Pojazdowa",
+        "title": "Regulamin",
         "order": 3
       },
       "components": [
@@ -1551,9 +2082,9 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pokaż logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Wielkość logo\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Pokaż markę\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Pokaż elementy menu\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Kolor aktywnego menu\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Pokaż przycisk(i)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"&quot;Przyklejony&quot;\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Zwinięty\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Przezroczyste\" name=\"transparent\">\n        <input type=\"color\" title=\"Kolor menu prostego\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"menuBgColor\" value=\"#c1c1c1\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                        <a href=\"index.html#header2-7\"><img src=\"@PROJECT_PATH@/assets/images/mbr-96x113.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html#features11-8\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">O FIRMIE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#content10-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">USŁUGI&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#footer2-c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">KONTAKT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"https://www.facebook.com/autoczesci.p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(20, 157, 204);\"></span>FACEBOOK &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+48606238327\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +48 606 238 327&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pokaż logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Wielkość logo\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Pokaż markę\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Pokaż elementy menu\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Kolor aktywnego menu\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Pokaż przycisk(i)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"&quot;Przyklejony&quot;\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Zwinięty\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Przezroczyste\" name=\"transparent\">\n        <input type=\"color\" title=\"Kolor menu prostego\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"menuBgColor\" value=\"#c1c1c1\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                        <a href=\"index.html#header2-7\"><img src=\"@PROJECT_PATH@/assets/images/mbr-96x113.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html#features11-8\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">O FIRMIE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#content10-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">USŁUGI&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#footer2-c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">KONTAKT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"<!-- Load Facebook SDK for JavaScript -->       <div id=&quot;fb-root&quot;></div>       <script>         window.fbAsyncInit = function() {           FB.init({             xfbml            : true,             version          : 'v8.0'           });         };          (function(d, s, id) {         var js, fjs = d.getElementsByTagName(s)[0];         if (d.getElementById(id)) return;         js = d.createElement(s); js.id = id;         js.src = 'https://connect.facebook.net/pl_PL/sdk/xfbml.customerchat.js';         fjs.parentNode.insertBefore(js, fjs);       }(document, 'script', 'facebook-jssdk'));</script>        <!-- Your Chat Plugin code -->       <div class=&quot;fb-customerchat&quot;         attribution=setup_tool         page_id=&quot;112654210602976&quot;   logged_in_greeting=&quot;Witam. Dziękuję za wiadomość. Odezwę się jak naszybciej.&quot;   logged_out_greeting=&quot;Witam. Dziękuję za wiadomość. Odezwę się jak naszybciej.&quot;>       </div>\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\"><span class=\"socicon socicon-messenger mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(20, 157, 204);\"></span>FACEBOOK &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+48606238327\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +48 606 238 327&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "scCsN50tGX",
-          "_anchor": "menu2-f",
+          "_anchor": "menu2-i",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
@@ -1585,11 +2116,11 @@
             }
           },
           "_name": "content10",
-          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Szerokość\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Długość linii\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Kolor linii\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#2e2e2e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".section-text\" mbr-text><b><i>POLITYKA PRYWATNOŚCI&nbsp;</i></b><br>Jakie dane o Tobie zbieramy?\n</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
-          "_anchor": "content10-g",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Szerokość\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Długość linii\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Kolor linii\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#2e2e2e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".section-text\" mbr-text><b><i>REGULAMIN</i></b></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_anchor": "content10-k",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "scDQ0A3ibP",
+          "_cid": "scDQwh1hGZ",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1624,22 +2155,43 @@
             }
           },
           "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Szerokość\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Długość linii\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Kolor linii\" name=\"lineColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#cccccc\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><div><b><i>Dane zbierane automatycznie.</i></b></div><div>\n</div><div>Podczas Twojej wizyty na naszej stronie internetowej, automatycznie zbierane są dane dotyczące Twojej wizyty, np. Twój adres IP, nazwa domeny, typ przeglądarki, typ systemu operacyjnego, itp.</div><br><div>\n</div><div><b><i>Dane zbierane, gdy kontaktujesz się z nami.</i></b></div><div>\n</div><div>Gdy kontaktujesz się z nami za pomocą strony internetowej, telefonu, poczty email, itp. przekazujesz nam swoje dane osobowe, np. imię, nazwisko, adres email, itp.</div><br><div>\n</div><div><b><i>W jaki sposób wykorzystujemy Twoje dane?</i></b></div><div>W żadnym wypadku nie będziemy sprzedawali danych zebranych o Tobie podmiotom trzecim.</div><div>Dane zbierane automatycznie mogą być użyte do analizy zachowań użytkowników na naszej stronie internetowej, zbierania danych demograficznych o naszych użytkownikach, lub do personalizacji zawartości naszych stron internetowych. Dane te są zbierane automatycznie o każdym użytkowniku.\n</div><div>\n</div><div>Dane zbierane w trakcie korespondencji pomiędzy Tobą, a naszym serwisem będą wykorzystane wyłącznie w celu odpowiedzi na Twoje zapytanie.\n</div><div>\n</div><div>W przypadku kontroli Generalnego Inspektoratu Ochrony Danych Osobowych, Twoje dane mogą zostać udostępnione pracownikom Inspektoratu zgodnie z ustawą o ochronie danych osobowych.\n</div><div>\n</div><div>W przypadku naruszenia Regulaminu naszego serwisu, naruszenia prawa, lub gdy będą wymagały tego przepisy prawa, możemy udostępnić Twoje dane organom wymiaru sprawiedliwości.</div><br><div>\n</div><div><b><i>Wykorzystanie ciasteczek (\"cookies\")\n</i></b></div><div>\n</div><div>Nasza strona internetowa wykorzystuje ciasteczka w celu ułatwienia korzystania z poszczególnych funkcji, np. rozpoznawanie i automatyczne logowanie powracającego użytkownika, oraz w celu odbierania danych statystycznych o oglądalności, z których korzysta tylko redakcja serwisu. Użytkownik może wyłączyć w swojej przeglądarce internetowej opcję przyjmowania ciasteczek.\n</div><div>Korzystając ze strony wyrażasz zgodę na używanie cookie, zgodnie z aktualnymi ustawieniami przeglądarki.\n</div><div>\n</div><div>Więcej informacji o cookie możesz znaleźć na stronie <a href=\"https://wszystkoociasteczkach.pl/\" class=\"text-primary\" target=\"_blank\">wszystkoociasteczkach.pl</a></div><br><div>\n</div><div><b><i>Zmiany naszej polityki prywatności.\n</i></b></div><div>\n</div><div>Zastrzegamy sobie prawo zmiany powyższej polityki prywatności poprzez opublikowanie nowej polityki prywatności na tej stronie.</div><br><div>\n</div><div><b><i>Kontakt\n</i></b></div><div>\n</div><div>Firma zbierająca dane:\n</div><div>ADAM PERKOWSKI ELEKTROMECHANIKA POJAZDOWA, UL. 11 LISTOPADA 12, 18-312 RUTKI-KOSSAKI, NIP: 723-155-84-96, REGON: 200222266,TEL.: <a href=\"tel:+48606238327\" class=\"text-primary\">+48 606 238 327</a>, adres e-mail: <a href=\"mailto:autoczesci.p@o2.pl\" class=\"text-primary\">autoczesci.p@o2.pl</a></div><div>\n</div><div>W razie dodatkowych pytań dotyczących ochrony prywatności, prosimy o kontakt e-mail: <a href=\"mailto:autoczesci.p@o2.pl\" class=\"text-primary\">autoczesci.p@o2.pl</a>.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
-          "_anchor": "content9-h",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Szerokość\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Długość linii\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Kolor linii\" name=\"lineColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#cccccc\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><div><b><i>Dane ogólne:\n</i></b></div><div>1.&nbsp; &nbsp;Aby spełnić obowiązki informacyjne wynikające z ustawy o świadczeniu usług drogą elektroniczną podano dane identyfikujące przedsiębiorcę prowadzącego Stronę internetową:\n</div><div><b><i>ADAM PERKOWSKI ELEKTROMECHANIKA POJAZDOWA, UL. 11 LISTOPADA 12, 18-312 RUTKI-KOSSAKI, NIP: 723-155-84-96, REGON: 200222266, TEL.: <a href=\"tel:+48606238327\" class=\"text-primary\">+48 606 238 327</a>, e-mail: <a href=\"mailto:autoczesci.p@o2.pl\" class=\"text-primary\">autoczesci.p@o2.pl</a>\n</i></b></div><div>2.&nbsp; &nbsp;Korzystanie z niniejszej Strony jest równoznaczne z wyrażeniem zgody na objęcie warunkami niniejszego Regulaminu. W razie braku zgody na warunki Regulaminu dalsze korzystanie ze Strony nie jest dopuszczalne.\n</div><br><div><br></div><div><b><i>Wymogi techniczne: \n</i></b></div><div>&nbsp; &nbsp; &nbsp; W trakcie korzystania ze strony w systemie teleinformatycznym Użytkownika instalowane są tzw. ciasteczka (pliki cookies), dla celów identyfikacji oraz dla celów statystycznych. Użytkownik Strony wyraża zgodę na przechowywanie przez Administratora na jego komputerze plików cookies, tj. plików tekstowych lub innych danych informatycznych, przechowywanych na urządzeniu końcowym Użytkownika Strony. Pliki te nie ingerują w integralność systemu Użytkownika Strony, a służą przede wszystkim do prowadzenia statystyk Administratora Strony, dostosowania zawartości Strony do preferencji użytkownika. Pliki cookies nie mają na celu zmiany konfiguracji komputera użytkownika oraz instalowania złowrogiego oprogramowania. Przeglądarki internetowe domyślnie akceptują pliki cookies. W każdej chwili można wyłączyć w przeglądarce ich akceptację, jednak efektem takiej zmiany mogą być utrudnienia związane z korzystaniem ze Strony.\n</div><br><div><br></div><div><b><i>Zastrzeżenia i pouczenia prawne na stronie firmowej\n.</i></b></div><div>1.&nbsp; &nbsp;Strona firmowa nie będzie umożliwiać zawarcia bezpośrednio za jej pomocą umowy sprzedaży, czy też umowy o świadczenie usług. Za pośrednictwem strony firmowej nie dochodzi do zawarcia umowy, a co najwyżej – zapoznanie się z asortymentem towarów i świadczonych przez przedsiębiorcę usług oraz nawiązanie z firmą kontaktu celem ewentualnego negocjowania warunków umowy. Zawarcie takiej umowy następuje już jednak zawsze poza Stroną firmową, np. w siedzibie.\n</div><div>2.&nbsp; &nbsp;Wszystkie reklamy i opisy produktów lub usług, które opublikowano na stronie firmowej, mają charakter informacyjny i nie mogą być traktowane jako oferta w rozumieniu przepisów Kodeksu cywilnego, a co najwyżej – jako zaproszenie do zawarcia umowy.</div><div><span style=\"font-size: 1.5rem;\">3. Uwagi, co do funkcjonowania Strony oraz dostępnych materiałów i treści, narzędzi i usług należy zgłaszać na adres e-mail: <a href=\"mailto:autoczesci.p@o2.pl\" class=\"text-primary\">autoczesci.p@o2.pl</a>.&nbsp;</span></div><div>4.&nbsp; &nbsp;Przedsiębiorca jest uprawniony do zmiany Regulaminu w każdym czasie. Zmiana Regulaminu wchodzi w życie z momentem publikacji nowej wersji Regulaminu na Stronie. W przypadku braku zgody na zmianę Regulaminu dalsze korzystanie ze Strony nie jest dopuszczalne.\n</div><div><b><i><br></i></b></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-m",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
-          "_cid": "scDQ2Jm5NU",
+          "_cid": "scDQAf5Kkl",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer6",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Efekt odsłaniania\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Obrazek\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Kolor ta\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Nakładka\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Przejrzystość\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2025 Mobirise - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sxMCK4k9mo",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer6-10"
         }
       ]
     },
-    "regulamin.html": {
+    "fundusze.html": {
       "settings": {
-        "meta_descr": "Regulamin Adam Perkowski Elektromechanika Pojazdowa",
-        "title": "Regulamin",
+        "meta_descr": "",
+        "title": "Fundusze UE",
         "order": 2
       },
       "components": [
@@ -2060,516 +2612,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pokaż logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Wielkość logo\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Pokaż markę\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Pokaż elementy menu\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Kolor aktywnego menu\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Pokaż przycisk(i)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"&quot;Przyklejony&quot;\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Zwinięty\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Przezroczyste\" name=\"transparent\">\n        <input type=\"color\" title=\"Kolor menu prostego\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"menuBgColor\" value=\"#c1c1c1\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                        <a href=\"index.html#header2-7\"><img src=\"@PROJECT_PATH@/assets/images/mbr-96x113.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html#features11-8\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">O FIRMIE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#content10-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">USŁUGI&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#footer2-c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">KONTAKT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"https://www.facebook.com/autoczesci.p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(20, 157, 204);\"></span>FACEBOOK &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+48606238327\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +48 606 238 327&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n        </div>\n    </nav>\n</section>",
-          "_cid": "scCsN50tGX",
-          "_anchor": "menu2-i",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".line": {
-              "background-color": "@lineColor",
-              "color": "@lineColor",
-              "align": "center",
-              "height": "2px",
-              "margin": "0 auto"
-            },
-            ".section-text": {
-              "padding": "2rem 0"
-            },
-            ".inner-container": {
-              "margin": "0 auto"
-            },
-            "@media (max-width: 768px)": {
-              ".inner-container": {
-                "width": "100% !important"
-              }
-            }
-          },
-          "_name": "content10",
-          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Szerokość\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Długość linii\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Kolor linii\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#2e2e2e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".section-text\" mbr-text><b><i>REGULAMIN</i></b></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
-          "_anchor": "content10-k",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "scDQwh1hGZ",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".line": {
-              "background-color": "@lineColor",
-              "color": "@lineColor",
-              "align": "center",
-              "height": "2px",
-              "margin": "0 auto"
-            },
-            ".section-text": {
-              "padding": "2rem 0"
-            },
-            ".inner-container": {
-              "margin": "0 auto"
-            },
-            "@media (max-width: 768px)": {
-              ".inner-container": {
-                "width": "100% !important"
-              }
-            },
-            ".section-text DIV": {
-              "text-align": "left"
-            }
-          },
-          "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Szerokość\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Długość linii\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Kolor linii\" name=\"lineColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#cccccc\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><div><b><i>Dane ogólne:\n</i></b></div><div>1.&nbsp; &nbsp;Aby spełnić obowiązki informacyjne wynikające z ustawy o świadczeniu usług drogą elektroniczną podano dane identyfikujące przedsiębiorcę prowadzącego Stronę internetową:\n</div><div><b><i>ADAM PERKOWSKI ELEKTROMECHANIKA POJAZDOWA, UL. 11 LISTOPADA 12, 18-312 RUTKI-KOSSAKI, NIP: 723-155-84-96, REGON: 200222266, TEL.: <a href=\"tel:+48606238327\" class=\"text-primary\">+48 606 238 327</a>, e-mail: <a href=\"mailto:autoczesci.p@o2.pl\" class=\"text-primary\">autoczesci.p@o2.pl</a>\n</i></b></div><div>2.&nbsp; &nbsp;Korzystanie z niniejszej Strony jest równoznaczne z wyrażeniem zgody na objęcie warunkami niniejszego Regulaminu. W razie braku zgody na warunki Regulaminu dalsze korzystanie ze Strony nie jest dopuszczalne.\n</div><br><div><br></div><div><b><i>Wymogi techniczne: \n</i></b></div><div>&nbsp; &nbsp; &nbsp; W trakcie korzystania ze strony w systemie teleinformatycznym Użytkownika instalowane są tzw. ciasteczka (pliki cookies), dla celów identyfikacji oraz dla celów statystycznych. Użytkownik Strony wyraża zgodę na przechowywanie przez Administratora na jego komputerze plików cookies, tj. plików tekstowych lub innych danych informatycznych, przechowywanych na urządzeniu końcowym Użytkownika Strony. Pliki te nie ingerują w integralność systemu Użytkownika Strony, a służą przede wszystkim do prowadzenia statystyk Administratora Strony, dostosowania zawartości Strony do preferencji użytkownika. Pliki cookies nie mają na celu zmiany konfiguracji komputera użytkownika oraz instalowania złowrogiego oprogramowania. Przeglądarki internetowe domyślnie akceptują pliki cookies. W każdej chwili można wyłączyć w przeglądarce ich akceptację, jednak efektem takiej zmiany mogą być utrudnienia związane z korzystaniem ze Strony.\n</div><br><div><br></div><div><b><i>Zastrzeżenia i pouczenia prawne na stronie firmowej\n.</i></b></div><div>1.&nbsp; &nbsp;Strona firmowa nie będzie umożliwiać zawarcia bezpośrednio za jej pomocą umowy sprzedaży, czy też umowy o świadczenie usług. Za pośrednictwem strony firmowej nie dochodzi do zawarcia umowy, a co najwyżej – zapoznanie się z asortymentem towarów i świadczonych przez przedsiębiorcę usług oraz nawiązanie z firmą kontaktu celem ewentualnego negocjowania warunków umowy. Zawarcie takiej umowy następuje już jednak zawsze poza Stroną firmową, np. w siedzibie.\n</div><div>2.&nbsp; &nbsp;Wszystkie reklamy i opisy produktów lub usług, które opublikowano na stronie firmowej, mają charakter informacyjny i nie mogą być traktowane jako oferta w rozumieniu przepisów Kodeksu cywilnego, a co najwyżej – jako zaproszenie do zawarcia umowy.</div><div><span style=\"font-size: 1.5rem;\">3. Uwagi, co do funkcjonowania Strony oraz dostępnych materiałów i treści, narzędzi i usług należy zgłaszać na adres e-mail: <a href=\"mailto:autoczesci.p@o2.pl\" class=\"text-primary\">autoczesci.p@o2.pl</a>.&nbsp;</span></div><div>4.&nbsp; &nbsp;Przedsiębiorca jest uprawniony do zmiany Regulaminu w każdym czasie. Zmiana Regulaminu wchodzi w życie z momentem publikacji nowej wersji Regulaminu na Stronie. W przypadku braku zgody na zmianę Regulaminu dalsze korzystanie ze Strony nie jest dopuszczalne.\n</div><div><b><i><br></i></b></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
-          "_anchor": "content9-m",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "scDQAf5Kkl",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        }
-      ]
-    },
-    "fundusze.html": {
-      "settings": {
-        "meta_descr": "",
-        "title": "Fundusze UE",
-        "order": 1
-      },
-      "components": [
-        {
-          "alias": false,
-          "_styles": {
-            ".navbar": {
-              "background": "@menuBgColor",
-              "transition": "none",
-              "min-height": "77px",
-              "padding": ".5rem 0"
-            },
-            ".navbar-dropdown.bg-color.transparent.opened": {
-              "background": "@menuBgColor"
-            },
-            "a": {
-              "font-style": "normal"
-            },
-            ".nav-item": {
-              "& span": {
-                "padding-right": "0.4em",
-                "line-height": "0.5em",
-                "vertical-align": "text-bottom",
-                "position": "relative",
-                "text-decoration": "none"
-              },
-              "& a": {
-                "display": "-webkit-flex",
-                "align-items": "center",
-                "justify-content": "center",
-                "padding": "0.7rem 0 !important",
-                "margin": "0rem .65rem !important",
-                "-webkit-align-items": "center",
-                "-webkit-justify-content": "center"
-              }
-            },
-            ".nav-item:focus, .nav-link:focus": {
-              "outline": "none"
-            },
-            ".btn": {
-              "padding": "0.4rem 1.5rem",
-              "display": "-webkit-inline-flex",
-              "align-items": "center",
-              "-webkit-align-items": "center",
-              ".mbr-iconfont": {
-                "font-size": "1.6rem"
-              }
-            },
-            ".menu-logo": {
-              "margin-right": "auto",
-              ".navbar-brand": {
-                "display": "flex",
-                "margin-left": "5rem",
-                "padding": "0",
-                "transition": "padding .2s",
-                "min-height": "3.8rem",
-                "-webkit-align-items": "center",
-                "align-items": "center",
-                ".navbar-caption-wrap": {
-                  "display": "flex",
-                  "-webkit-align-items": "center",
-                  "align-items": "center",
-                  "word-break": "break-word",
-                  "min-width": "7rem",
-                  "margin": ".3rem 0",
-                  ".navbar-caption": {
-                    "line-height": "1.2rem !important",
-                    "padding-right": "2rem"
-                  }
-                },
-                ".navbar-logo": {
-                  "font-size": "4rem",
-                  "transition": "font-size 0.25s",
-                  "& img": {
-                    "display": "flex"
-                  },
-                  ".mbr-iconfont": {
-                    "transition": "font-size 0.25s"
-                  },
-                  "a": {
-                    "display": "inline-flex"
-                  }
-                }
-              }
-            },
-            ".navbar-toggleable-sm .navbar-collapse": {
-              "justify-content": "flex-end",
-              "-webkit-justify-content": "flex-end",
-              "padding-right": "5rem",
-              "width": "auto",
-              ".navbar-nav": {
-                "flex-wrap": "wrap",
-                "-webkit-flex-wrap": "wrap",
-                "padding-left": "0",
-                ".nav-item": {
-                  "-webkit-align-self": "center",
-                  "align-self": "center"
-                }
-              },
-              ".navbar-buttons": {
-                "padding-left": "0",
-                "padding-bottom": "0"
-              }
-            },
-            ".dropdown": {
-              ".dropdown-menu": {
-                "background": "@menuBgColor",
-                "visibility": "hidden",
-                "display": "block",
-                "position": "absolute",
-                "min-width": "5rem",
-                "padding-top": "1.4rem",
-                "padding-bottom": "1.4rem",
-                "text-align": "left",
-                ".dropdown-item": {
-                  "width": "auto",
-                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
-                  "&::after": {
-                    "right": "0.5rem"
-                  }
-                },
-                ".dropdown-submenu": {
-                  "margin": "0"
-                }
-              },
-              "&.open > .dropdown-menu": {
-                "visibility": "visible"
-              }
-            },
-            ".navbar-toggleable-sm": {
-              "&.opened:after": {
-                "position": "absolute",
-                "width": "100vw",
-                "height": "100vh",
-                "content": "''",
-                "background-color": "rgba(0, 0, 0, 0.1)",
-                "left": "0",
-                "bottom": "0",
-                "transform": "translateY(100%)",
-                "-webkit-transform": "translateY(100%)",
-                "z-index": "1000"
-              }
-            },
-            ".navbar.navbar-short": {
-              "min-height": "60px",
-              "transition": "all .2s",
-              "& .navbar-toggler-right": {
-                "top": "20px"
-              },
-              "& .navbar-logo a": {
-                "font-size": "2.5rem !important",
-                "line-height": "2.5rem",
-                "transition": "font-size 0.25s",
-                "& .mbr-iconfont": {
-                  "font-size": "2.5rem !important"
-                },
-                "& img": {
-                  "height": "3rem !important"
-                }
-              },
-              "& .navbar-brand": {
-                "min-height": "3rem"
-              }
-            },
-            "button.navbar-toggler": {
-              "width": "31px",
-              "height": "18px",
-              "cursor": "pointer",
-              "transition": "all .2s",
-              "top": "1.5rem",
-              "right": "1rem",
-              "&:focus": {
-                "outline": "none"
-              },
-              ".hamburger span": {
-                "position": "absolute",
-                "right": "0",
-                "width": "30px",
-                "height": "2px",
-                "border-right": "5px",
-                "background-color": "@hamburgerColor",
-                "&:nth-child(1)": {
-                  "top": "0",
-                  "transition": "all .2s"
-                },
-                "&:nth-child(2)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(3)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(4)": {
-                  "top": "16px",
-                  "transition": "all .2s"
-                }
-              }
-            },
-            "nav.opened .hamburger span": {
-              "&:nth-child(1)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              },
-              "&:nth-child(2)": {
-                "-webkit-transform": "rotate(45deg)",
-                "transform": "rotate(45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(3)": {
-                "-webkit-transform": "rotate(-45deg)",
-                "transform": "rotate(-45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(4)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              }
-            },
-            ".collapsed": {
-              "&.navbar-expand": {
-                "flex-direction": "column",
-                "-webkit-flex-direction": "column"
-              },
-              ".btn": {
-                "display": "-webkit-flex"
-              },
-              ".navbar-collapse": {
-                "display": "none !important",
-                "padding-right": "0 !important",
-                "&.collapsing,&.show": {
-                  "display": "block !important",
-                  ".navbar-nav": {
-                    "display": "block",
-                    "text-align": "center",
-                    ".nav-item": {
-                      "clear": "both",
-                      "& when (@showButtons = false)": {
-                        "&:last-child": {
-                          "margin-bottom": "1rem"
-                        }
-                      }
-                    }
-                  },
-                  ".navbar-buttons": {
-                    "text-align": "center",
-                    "&:last-child": {
-                      "margin-bottom": "1rem"
-                    }
-                  }
-                }
-              },
-              "@media (min-width: 1024px)": {
-                "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
-                  "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
-                }
-              },
-              "button.navbar-toggler": {
-                "display": "block"
-              },
-              ".navbar-brand": {
-                "margin-left": "1rem !important"
-              },
-              ".navbar-toggleable-sm": {
-                "flex-direction": "column",
-                "-webkit-flex-direction": "column"
-              },
-              ".dropdown": {
-                ".dropdown-menu": {
-                  "width": "100%",
-                  "text-align": "center",
-                  "position": "relative",
-                  "opacity": "0",
-                  "overflow": "hidden",
-                  "display": "block",
-                  "height": "0",
-                  "visibility": "hidden",
-                  "padding": "0",
-                  "transition-duration": ".5s",
-                  "transition-property": "opacity,padding,height"
-                },
-                "&.open > .dropdown-menu": {
-                  "position": "relative",
-                  "opacity": "1",
-                  "height": "auto",
-                  "padding": "1.4rem 0",
-                  "visibility": "visible"
-                },
-                ".dropdown-submenu": {
-                  "left": "0",
-                  "text-align": "center",
-                  "width": "100%"
-                },
-                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
-                  "margin-top": "0",
-                  "position": "inherit",
-                  "right": "0",
-                  "top": "50%",
-                  "display": "inline-block",
-                  "width": "0",
-                  "height": "0",
-                  "margin-left": ".3em",
-                  "vertical-align": "middle",
-                  "content": "\"\"",
-                  "border-top": ".30em solid",
-                  "border-right": ".30em solid transparent",
-                  "border-left": ".30em solid transparent"
-                }
-              }
-            },
-            "@media (max-width: 1023px)": {
-              "&.navbar-expand": {
-                "flex-direction": "column",
-                "-webkit-flex-direction": "column"
-              },
-              "img": {
-                "height": "3.8rem !important"
-              },
-              ".btn": {
-                "display": "-webkit-flex"
-              },
-              "button.navbar-toggler": {
-                "display": "block"
-              },
-              ".navbar-brand": {
-                "margin-left": "1rem !important"
-              },
-              ".navbar-toggleable-sm": {
-                "flex-direction": "column",
-                "-webkit-flex-direction": "column"
-              },
-              ".navbar-collapse": {
-                "display": "none !important",
-                "padding-right": "0 !important",
-                "&.collapsing,&.show": {
-                  "display": "block !important",
-                  ".navbar-nav": {
-                    "display": "block",
-                    "text-align": "center",
-                    ".nav-item": {
-                      "clear": "both",
-                      "& when (@showButtons = false)": {
-                        "&:last-child": {
-                          "margin-bottom": "1rem"
-                        }
-                      }
-                    }
-                  },
-                  ".navbar-buttons": {
-                    "text-align": "center",
-                    "&:last-child": {
-                      "margin-bottom": "1rem"
-                    }
-                  }
-                }
-              },
-              ".dropdown": {
-                ".dropdown-menu": {
-                  "width": "100%",
-                  "text-align": "center",
-                  "position": "relative",
-                  "opacity": "0",
-                  "overflow": "hidden",
-                  "display": "block",
-                  "height": "0",
-                  "visibility": "hidden",
-                  "padding": "0",
-                  "transition-duration": ".5s",
-                  "transition-property": "opacity,padding,height"
-                },
-                "&.open > .dropdown-menu": {
-                  "position": "relative",
-                  "opacity": "1",
-                  "height": "auto",
-                  "padding": "1.4rem 0",
-                  "visibility": "visible"
-                },
-                ".dropdown-submenu": {
-                  "left": "0",
-                  "text-align": "center",
-                  "width": "100%"
-                },
-                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
-                  "margin-top": "0",
-                  "position": "inherit",
-                  "right": "0",
-                  "top": "50%",
-                  "display": "inline-block",
-                  "width": "0",
-                  "height": "0",
-                  "margin-left": ".3em",
-                  "vertical-align": "middle",
-                  "content": "\"\"",
-                  "border-top": ".30em solid",
-                  "border-right": ".30em solid transparent",
-                  "border-left": ".30em solid transparent"
-                }
-              }
-            },
-            "@media (min-width: 767px)": {
-              ".menu-logo": {
-                "flex-shrink": "0",
-                "-webkit-flex-shrink": "0"
-              }
-            },
-            ".navbar-collapse": {
-              "flex-basis": "auto",
-              "-webkit-flex-basis": "auto"
-            },
-            ".nav-link:hover, .dropdown-item:hover": {
-              "color": "@itemsHoverColor !important"
-            }
-          },
-          "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pokaż logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Wielkość logo\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Pokaż markę\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Pokaż elementy menu\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Kolor aktywnego menu\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Pokaż przycisk(i)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"&quot;Przyklejony&quot;\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Zwinięty\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Przezroczyste\" name=\"transparent\">\n        <input type=\"color\" title=\"Kolor menu prostego\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"menuBgColor\" value=\"#c1c1c1\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                        <a href=\"index.html#header2-7\"><img src=\"@PROJECT_PATH@/assets/images/mbr-96x113.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html#features11-8\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">O FIRMIE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#content10-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">USŁUGI&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#footer2-c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">KONTAKT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"https://www.facebook.com/autoczesci.p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(20, 157, 204);\"></span>FACEBOOK &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+48606238327\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +48 606 238 327&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pokaż logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Wielkość logo\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Pokaż markę\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Pokaż elementy menu\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Kolor aktywnego menu\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Pokaż przycisk(i)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"&quot;Przyklejony&quot;\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Zwinięty\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Przezroczyste\" name=\"transparent\">\n        <input type=\"color\" title=\"Kolor menu prostego\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"menuBgColor\" value=\"#c1c1c1\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                        <a href=\"index.html#header2-7\"><img src=\"@PROJECT_PATH@/assets/images/mbr-96x113.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\"></a>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html#features11-8\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">O FIRMIE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#content10-a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">USŁUGI&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#footer2-c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">KONTAKT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"<!-- Load Facebook SDK for JavaScript -->       <div id=&quot;fb-root&quot;></div>       <script>         window.fbAsyncInit = function() {           FB.init({             xfbml            : true,             version          : 'v8.0'           });         };          (function(d, s, id) {         var js, fjs = d.getElementsByTagName(s)[0];         if (d.getElementById(id)) return;         js = d.createElement(s); js.id = id;         js.src = 'https://connect.facebook.net/pl_PL/sdk/xfbml.customerchat.js';         fjs.parentNode.insertBefore(js, fjs);       }(document, 'script', 'facebook-jssdk'));</script>        <!-- Your Chat Plugin code -->       <div class=&quot;fb-customerchat&quot;         attribution=setup_tool         page_id=&quot;112654210602976&quot;   logged_in_greeting=&quot;Witam. Dziękuję za wiadomość. Odezwę się jak naszybciej.&quot;   logged_out_greeting=&quot;Witam. Dziękuję za wiadomość. Odezwę się jak naszybciej.&quot;>       </div>\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\"><span class=\"socicon socicon-messenger mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(20, 157, 204);\"></span>FACEBOOK &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+48606238327\" data-app-placeholder=\"Type Text\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +48 606 238 327&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "scCsN50tGX",
           "_anchor": "menu2-p",
           "_protectedParams": [],
@@ -2616,6 +2659,27 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer6",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Efekt odsłaniania\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Obrazek\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Kolor ta\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Nakładka\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Przejrzystość\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2025 Mobirise - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sxMCK4k9mo",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer6-10"
         }
       ]
     }
